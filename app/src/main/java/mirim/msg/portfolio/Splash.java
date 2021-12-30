@@ -1,5 +1,6 @@
 package mirim.msg.portfolio;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
@@ -11,6 +12,9 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         startLoading();
+
+        ActionBar bar = getSupportActionBar();
+        bar.hide();
     }
     private void startLoading(){
         Handler handler = new Handler();
