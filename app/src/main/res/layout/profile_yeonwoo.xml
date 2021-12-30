@@ -123,8 +123,4 @@
         android:background="@drawable/btn_radius"
         android:layout_centerHorizontal="true"
         android:text="프로젝트 보러가기" />
-
-
-
-
 </RelativeLayout>
