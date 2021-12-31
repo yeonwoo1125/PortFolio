@@ -18,14 +18,5 @@ public class yeonwooProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_yeonwoo);
 
-        //홈으로 가는 버튼
-        Button beforeBtn = (Button) findViewById(R.id.go_home_btn);
-        beforeBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
