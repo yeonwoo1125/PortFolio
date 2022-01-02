@@ -21,7 +21,6 @@
         <activity
             android:name=".yeonwooProfile"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".nahyeonProfile" />
     </application>
 
 </manifest>

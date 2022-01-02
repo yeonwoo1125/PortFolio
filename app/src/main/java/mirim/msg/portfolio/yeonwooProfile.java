@@ -54,7 +54,7 @@ public class yeonwooProfile extends AppCompatActivity {
             }
             case R.id.nextBtn:{
                 Log.d("TAG", "다음버튼");
-                startActivity(new Intent(this, nahyeonProfile.class));
+                startActivity(new Intent(this, nahyunProfile.class));
             }
         }
         return super.onOptionsItemSelected(item);
