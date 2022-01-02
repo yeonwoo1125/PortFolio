@@ -115,7 +115,7 @@
         android:orientation="vertical"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/sw_btn_style_2">
         <TextView
             android:fontFamily="@font/font_tway_air"
