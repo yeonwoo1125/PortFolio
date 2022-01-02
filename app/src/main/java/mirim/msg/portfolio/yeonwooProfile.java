@@ -1,6 +1,5 @@
 package mirim.msg.portfolio;
 
-import android.content.ClipData;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -9,14 +8,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 
-
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 public class yeonwooProfile extends AppCompatActivity {
 
@@ -34,6 +29,13 @@ public class yeonwooProfile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //툴바 설정
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //뒤로가기
+        //getSupportActionBar().setHomeAsUpIndicator(R.drawable.home_btn); //icon 변경
+
     }
 
     //액션 버튼 메뉴 액션바에 넣기
@@ -46,12 +48,17 @@ public class yeonwooProfile extends AppCompatActivity {
     //액션 버튼 클릭 이벤트
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        if (item.getItemId() == R.id.nextBtn) {
-            Log.d("tag", "버튼 클릭");
-            Intent intent = new Intent(getApplicationContext(),nahyeonProfile.class);
-            startActivity(intent);
-            return true;
+        switch(item.getItemId()){
+            case android.R.id.home:{
+                finish();
+            }
+            case R.id.nextBtn:{
+                Log.d("TAG", "다음버튼");
+                startActivity(new Intent(this, nahyeonProfile.class));
+            }
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 }

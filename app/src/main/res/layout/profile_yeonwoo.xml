@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:menu="@menu/top_nav_menu"/>
 
     <ImageView
         android:id="@+id/profile_img"
         android:layout_width="120dp"
         android:layout_height="140dp"
         android:background="@drawable/image_radius"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="30dp"
          />
 
@@ -16,7 +24,7 @@
         android:id="@+id/name_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="210dp"
         android:layout_marginLeft="60dp"
         android:text="가연우"
         android:textColor="@color/black"
@@ -27,25 +35,25 @@
         android:id="@+id/profile_text"
         android:layout_width="100dp"
         android:layout_height="40sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="185dp"
         android:text="Profile"
         android:textSize="30sp"
         android:textColor="@color/black"/>
     <View
         android:id="@+id/line_profile"
-        android:layout_width="200dp"
+        android:layout_width="190dp"
         android:layout_height="2dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="90dp"
         android:background="#4D000000"/>
 
     <TextView
         android:id="@+id/Profile_contents_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="185dp"
         android:textSize="13sp"
         android:text="이름 : 가연우\n생년월일 : 2004.11.25\n학교 : 미림여자정보과학고등학교"
         android:textColor="@color/black" />
@@ -54,7 +62,7 @@
         android:id="@+id/contacts_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="245dp"
+        android:layout_marginTop="275dp"
         android:layout_marginLeft="30dp"
         android:textSize="30sp"
         android:textColor="@color/black"
@@ -64,13 +72,13 @@
         android:layout_width="280dp"
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginTop="315dp"
         android:background="#4D000000"/>
     <TextView
         android:id="@+id/contacts_contents_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="295dp"
+        android:layout_marginTop="325dp"
         android:layout_marginLeft="30dp"
         android:text="전화번호 : 010-9242-2844\n깃허브 : https://github.com/yeonwoo1125\n블로그 : https://yeonwoo1125.tistory.com/\n이메일 : yeanwoo0619@gmail.com"
         android:textColor="@color/black"
@@ -79,7 +87,7 @@
         android:id="@+id/project_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="415dp"
+        android:layout_marginTop="445dp"
         android:layout_marginLeft="30dp"
         android:text="Project"
         android:textSize="30sp"
@@ -90,15 +98,15 @@
         android:layout_width="280dp"
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="455dp"
+        android:layout_marginTop="485dp"
         android:background="#4D000000"/>
     <TextView
         android:id="@+id/project_contents_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="465dp"
+        android:layout_marginTop="495dp"
         android:layout_marginLeft="30dp"
-        android:text="공모전 및 대회\n  E-icon 세계대회\n  2021 STAC\n\n전공\n  C++\n  JavaScript\n  JAVA"
+        android:text="공모전 및 대회\n · E-icon 세계대회\n · 2021 STAC\n\n전공\n · C++\n · JavaScript\n · JAVA"
         android:textColor="@color/black"
         />
 
@@ -106,8 +114,10 @@
         android:id="@+id/go_project_btn"
         android:layout_width="190dp"
         android:layout_height="50dp"
-        android:layout_marginTop="625dp"
+        android:layout_marginTop="655dp"
         android:background="@drawable/btn_radius"
         android:layout_centerHorizontal="true"
         android:text="프로젝트 보러가기" />
+
+
 </RelativeLayout>
