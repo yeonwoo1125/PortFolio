@@ -13,8 +13,6 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         startLoading();
 
-        ActionBar bar = getSupportActionBar();
-        bar.hide();
     }
     private void startLoading(){
         Handler handler = new Handler();
