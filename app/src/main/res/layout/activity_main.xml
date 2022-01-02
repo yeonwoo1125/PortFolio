@@ -2,19 +2,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#0057FF"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/profile_btn"
-        android:layout_width="350dp"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="50dp"
+        android:src="@drawable/portfolio"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/btn_radius"
-        android:drawablePadding="100dp"
-        android:text="이름"
-        android:textSize="40sp"/>
+        android:backgroundTint="@color/white"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/image_slide"
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/profile_btn"-->
+<!--            android:layout_width="342dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:drawablePadding="100dp"-->
+<!--            android:background="#00ff0000"-->
+<!--            android:text="이름"-->
+<!--            android:textSize="40sp" />-->
+<!--        &lt;!&ndash;            android:background="@drawable/btn_blue_radius"&ndash;&gt;-->
+    </LinearLayout>
 
 </LinearLayout>
