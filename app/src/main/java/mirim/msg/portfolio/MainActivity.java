@@ -3,6 +3,8 @@ package mirim.msg.portfolio;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -35,10 +37,27 @@ public class MainActivity extends AppCompatActivity {
         };
         v_fllipper = findViewById(R.id.image_slide);
 
+
+
         for(int image:images) {
             fllipperImages(image);
         }
-
+        v_fllipper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent;
+                switch (v_fllipper.getDisplayedChild()){
+                    case 0:
+                        intent = new Intent(getApplicationContext(), yeonwooProfile.class);
+                        startActivity(intent);
+                        break;
+                    case 1:
+                        intent = new Intent(getApplicationContext(), nahyunProfile.class);
+                        startActivity(intent);
+                        break;
+                }
+            }
+        });
         // spalsh 실행 코드
         Intent intent = new Intent(this, Splash.class);
         startActivity(intent);
