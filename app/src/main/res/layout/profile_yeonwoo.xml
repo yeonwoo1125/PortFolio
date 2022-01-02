@@ -75,13 +75,40 @@
         android:layout_marginTop="315dp"
         android:background="#4D000000"/>
     <TextView
-        android:id="@+id/contacts_contents_text"
+        android:id="@+id/phone_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="325dp"
         android:layout_marginLeft="30dp"
-        android:text="전화번호 : 010-9242-2844\n깃허브 : https://github.com/yeonwoo1125\n블로그 : https://yeonwoo1125.tistory.com/\n이메일 : yeanwoo0619@gmail.com"
+        android:text="전화번호 : 010-9242-2844"
         android:textColor="@color/black"
+        android:linksClickable="true"
+        android:autoLink="phone"
+
+        />
+    <TextView
+        android:id="@+id/github_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="30dp"
+        android:text="깃허브 : https://github.com/yeonwoo1125"
+        android:textColor="@color/black"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:textColorLink="@color/black"
+        />
+    <TextView
+        android:id="@+id/blog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="30dp"
+        android:text="블로그 : https://yeonwoo1125.tistory.com"
+        android:textColor="@color/black"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:textColorLink="@color/black"
         />
     <TextView
         android:id="@+id/project_text"
@@ -118,6 +145,5 @@
         android:background="@drawable/btn_radius"
         android:layout_centerHorizontal="true"
         android:text="프로젝트 보러가기" />
-
 
 </RelativeLayout>
