@@ -38,9 +38,10 @@ public class MainActivity extends AppCompatActivity {
         for(int image:images) {
             fllipperImages(image);
         }
-//
-//        Intent intent = new Intent(this, Splash.class);
-//        startActivity(intent);
+
+        // spalsh 실행 코드
+        Intent intent = new Intent(this, Splash.class);
+        startActivity(intent);
 
 //        Button profile_yeonwoo_btn = (Button) findViewById(R.id.profile_btn);
 //        profile_yeonwoo_btn.setOnClickListener(new View.OnClickListener() {
