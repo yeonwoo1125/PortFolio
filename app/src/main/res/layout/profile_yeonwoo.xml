@@ -29,6 +29,7 @@
         android:text="가연우"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:fontFamily="@font/font_tway_air"
          />
 
     <TextView
@@ -39,7 +40,8 @@
         android:layout_marginLeft="185dp"
         android:text="Profile"
         android:textSize="30sp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"/>
     <View
         android:id="@+id/line_profile"
         android:layout_width="190dp"
@@ -56,7 +58,9 @@
         android:layout_marginLeft="185dp"
         android:textSize="13sp"
         android:text="이름 : 가연우\n생년월일 : 2004.11.25\n학교 : 미림여자정보과학고등학교"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        />
 
     <TextView
         android:id="@+id/contacts_text"
@@ -66,14 +70,17 @@
         android:layout_marginLeft="30dp"
         android:textSize="30sp"
         android:textColor="@color/black"
-        android:text="Contacts" />
+        android:text="Contacts"
+        android:fontFamily="@font/font_tway_air"
+        />
     <View
         android:id="@+id/line_contacts"
         android:layout_width="280dp"
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="315dp"
-        android:background="#4D000000"/>
+        android:background="#4D000000"
+        android:fontFamily="@font/font_tway_air"/>
     <TextView
         android:id="@+id/phone_text"
         android:layout_width="wrap_content"
@@ -84,6 +91,7 @@
         android:textColor="@color/black"
         android:linksClickable="true"
         android:autoLink="phone"
+        android:fontFamily="@font/font_tway_air"
         />
     <TextView
         android:id="@+id/github_text"
@@ -96,6 +104,7 @@
         android:linksClickable="true"
         android:autoLink="web"
         android:textColorLink="@color/black"
+        android:fontFamily="@font/font_tway_air"
         />
     <TextView
         android:id="@+id/blog_text"
@@ -108,6 +117,7 @@
         android:linksClickable="true"
         android:autoLink="web"
         android:textColorLink="@color/black"
+        android:fontFamily="@font/font_tway_air"
         />
     <TextView
         android:id="@+id/email_text"
@@ -120,6 +130,7 @@
         android:linksClickable="true"
         android:autoLink="email"
         android:textColorLink="@color/black"
+        android:fontFamily="@font/font_tway_air"
         />
     <TextView
         android:id="@+id/project_text"
@@ -130,6 +141,7 @@
         android:text="Project"
         android:textSize="30sp"
         android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
         />
     <View
         android:id="@+id/line_project"
@@ -146,6 +158,7 @@
         android:layout_marginLeft="30dp"
         android:text="공모전 및 대회\n · E-icon 세계대회\n · 2021 STAC\n\n전공\n · C++\n · JavaScript\n · JAVA"
         android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
         />
 
     <Button
@@ -155,6 +168,7 @@
         android:layout_marginTop="655dp"
         android:background="@drawable/btn_radius"
         android:layout_centerHorizontal="true"
-        android:text="프로젝트 보러가기" />
+        android:text="프로젝트 보러가기"
+        android:fontFamily="@font/font_tway_air"/>
 
 </RelativeLayout>
