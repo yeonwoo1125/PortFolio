@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.profile_6,
                 R.drawable.profile_7,
         };
-        String Names[] = {
-                "가연우",
-                "조나현",
-                "이선우",
-                "이주완",
-                "인소리",
-                "김태연",
-                "이하나"
-        };
+//        String Names[] = {
+//                "가연우",
+//                "조나현",
+//                "이선우",
+//                "이주완",
+//                "인소리",
+//                "김태연",
+//                "이하나"
+//        };
         v_fllipper = findViewById(R.id.image_slide);
 
 

@@ -1,12 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#0057FF"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="안녕하세요. 선우입니다"
-        >
-    </TextView>
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:src="@drawable/sunwoo_1"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_blue_radius"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lee sunwoo"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2004.1.5\n\nMirim Girls' Information Science High School"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="370dp"
+        android:layout_height="84dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_1" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_2" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_3" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_4" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_5" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_6" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sw_icon_7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/font_tway_air"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="Awards"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sw_btn_style_2">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◽ 데이터크리에이터캠프 - 우수상\n◽소프트웨어챌린지 - 대상\n◽해커톤 앱잼 - 최우수상"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/font_tway_air"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:text="Certificate"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sw_btn_style_2">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◽ITQ 파워포인트 A\n◽ITQ 엑셀 A\n◽ITQ 아래한글 A\n◽정보처리기능사"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/font_tway_air"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sw_btn_style"
+        android:backgroundTint="@color/white"
+        android:text="포트폴리오 보러가기"
+        android:textColor="#0057FF"
+        android:textSize="20sp"/>
 </LinearLayout>
