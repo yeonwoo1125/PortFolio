@@ -3,7 +3,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <ImageView
         android:layout_width="150dp"
         android:layout_height="200dp"
@@ -32,7 +31,7 @@
 
     <LinearLayout
         android:layout_width="369dp"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="190dp" >
 
@@ -54,7 +53,7 @@
 
     <LinearLayout
         android:layout_width="369dp"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp">
 
@@ -76,9 +75,10 @@
 
     <LinearLayout
         android:layout_width="369dp"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="19dp" >
+        android:layout_marginTop="19dp"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -96,13 +96,13 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="140dp"
-        android:layout_height="30dp"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:background="@drawable/btn_radius"
         android:text="포트폴리오 보러가기"
-        android:textSize="15dp"/>
+        android:textSize="18dp"/>
 
 
 </LinearLayout>
