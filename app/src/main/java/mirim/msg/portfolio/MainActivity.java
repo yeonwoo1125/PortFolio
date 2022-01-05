@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setBackgroundResource(image);
 
         v_fllipper.addView(imageView);      // 이미지 추가
-        v_fllipper.setFlipInterval(4000);       // 자동 이미지 슬라이드 딜레이시간(1000 당 1초)
+        v_fllipper.setFlipInterval(2000);       // 자동 이미지 슬라이드 딜레이시간(1000 당 1초)
         v_fllipper.setAutoStart(true);          // 자동 시작 유무 설정
 
         // animation
