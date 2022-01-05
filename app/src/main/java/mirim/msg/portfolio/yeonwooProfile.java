@@ -27,6 +27,7 @@ public class yeonwooProfile extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),yeonwooProject.class);
                 startActivity(intent);
+
             }
         });
 

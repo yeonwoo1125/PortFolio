@@ -9,23 +9,35 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        />
+        app:menu="@menu/top_nav_menu"/>
 
     <ImageView
         android:id="@+id/profile_img"
         android:layout_width="120dp"
         android:layout_height="140dp"
         android:background="@drawable/image_radius"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="30dp"
         android:src="@drawable/yeonwoo"
+         />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="60dp"
+        android:text="가연우"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/font_tway_air"
          />
 
     <TextView
         android:id="@+id/profile_text"
         android:layout_width="100dp"
         android:layout_height="40sp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="185dp"
         android:text="Profile"
         android:textSize="30sp"
@@ -36,36 +48,17 @@
         android:layout_width="190dp"
         android:layout_height="2dp"
         android:layout_marginLeft="185dp"
-        android:layout_marginTop="95dp"
-        android:background="#4D0057FF"/>
+        android:layout_marginTop="90dp"
+        android:background="#4D000000"/>
 
     <TextView
-        android:id="@+id/name_text"
+        android:id="@+id/Profile_contents_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="100dp"
         android:layout_marginLeft="185dp"
-        android:text="이름 : 가연우"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
-    <TextView
-        android:id="@+id/birth_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="125dp"
-        android:layout_marginLeft="185dp"
-        android:text="생년월일 : 2004.11.25"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
-    <TextView
-        android:id="@+id/school_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="145dp"
-        android:layout_marginLeft="185dp"
-        android:text="학교 : 미림여자정보과학고등학교"
+        android:textSize="13sp"
+        android:text="이름 : 가연우\n생년월일 : 2004.11.25\n학교 : 미림여자정보과학고등학교"
         android:textColor="@color/black"
         android:fontFamily="@font/font_tway_air"
         />
@@ -74,7 +67,7 @@
         android:id="@+id/contacts_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="275dp"
         android:layout_marginLeft="30dp"
         android:textSize="30sp"
         android:textColor="@color/black"
@@ -86,14 +79,14 @@
         android:layout_width="280dp"
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="310dp"
-        android:background="#4D0057FF"
-        />
+        android:layout_marginTop="315dp"
+        android:background="#4D000000"
+        android:fontFamily="@font/font_tway_air"/>
     <TextView
         android:id="@+id/phone_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="325dp"
         android:layout_marginLeft="30dp"
         android:text="전화번호 : 010-9242-2844"
         android:textColor="@color/black"
@@ -105,7 +98,7 @@
         android:id="@+id/github_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="345dp"
         android:layout_marginLeft="30dp"
         android:text="깃허브 : https://github.com/yeonwoo1125"
         android:textColor="@color/black"
@@ -118,7 +111,7 @@
         android:id="@+id/blog_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="365dp"
         android:layout_marginLeft="30dp"
         android:text="블로그 : https://yeonwoo1125.tistory.com"
         android:textColor="@color/black"
@@ -131,7 +124,7 @@
         android:id="@+id/email_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="385dp"
         android:layout_marginLeft="30dp"
         android:text="이메일 : yeanwoo0619@gmail.com"
         android:textColor="@color/black"
@@ -157,77 +150,14 @@
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="485dp"
-        android:background="#4D0057FF"/>
+        android:background="#4D000000"/>
     <TextView
-        android:id="@+id/contest_text"
+        android:id="@+id/project_contents_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="495dp"
         android:layout_marginLeft="30dp"
-        android:text="공모전 및 대회"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        android:textSize="16sp"
-        />
-    <TextView
-        android:id="@+id/e_icon_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="515dp"
-        android:layout_marginLeft="35dp"
-        android:text="· E-icon 세계대회"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
-    <TextView
-        android:id="@+id/stac_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="535dp"
-        android:layout_marginLeft="35dp"
-        android:text="· 2021 STAC"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
-
-    <TextView
-        android:id="@+id/class_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="560dp"
-        android:layout_marginLeft="30dp"
-        android:text="전공"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        android:textSize="16sp"
-        />
-    <TextView
-        android:id="@+id/c_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="580dp"
-        android:layout_marginLeft="35dp"
-        android:text="· C++"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
-    <TextView
-        android:id="@+id/java_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="600dp"
-        android:layout_marginLeft="35dp"
-        android:text="· JAVA"
-        android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
-    <TextView
-        android:id="@+id/javascript_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="620dp"
-        android:layout_marginLeft="35dp"
-        android:text="· JavaScript"
+        android:text="공모전 및 대회\n · E-icon 세계대회\n · 2021 STAC\n\n전공\n · C++\n · JavaScript\n · JAVA"
         android:textColor="@color/black"
         android:fontFamily="@font/font_tway_air"
         />
