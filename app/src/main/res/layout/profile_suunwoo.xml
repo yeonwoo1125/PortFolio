@@ -11,9 +11,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <ImageView
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="160dp"
-            android:src="@drawable/sunwoo_1"
+            android:src="@drawable/sunwoo"
             android:scaleType="centerCrop"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
@@ -25,7 +25,7 @@
             android:orientation="vertical">
             <TextView
                 android:fontFamily="@font/font_tway_air"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Lee sunwoo"
