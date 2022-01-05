@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // spalsh 실행 코드
+        Intent intent = new Intent(this, Splash.class);
+        startActivity(intent);
+
         int images[] = {
                 R.drawable.profile_1,
                 R.drawable.profile_2,
@@ -37,8 +41,6 @@ public class MainActivity extends AppCompatActivity {
 //        };
         v_fllipper = findViewById(R.id.image_slide);
 
-
-
         for(int image:images) {
             fllipperImages(image);
         }
@@ -58,18 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        // spalsh 실행 코드
-        Intent intent = new Intent(this, Splash.class);
-        startActivity(intent);
-
-//        Button profile_yeonwoo_btn = (Button) findViewById(R.id.profile_btn);
-//        profile_yeonwoo_btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), yeonwooProfile.class);
-//                startActivity(intent);
-//            }
-//        });
     }
 
     public void fllipperImages(int image) {
@@ -85,5 +75,4 @@ public class MainActivity extends AppCompatActivity {
         v_fllipper.setOutAnimation(this,android.R.anim.slide_out_right);
 
     }
-
 }

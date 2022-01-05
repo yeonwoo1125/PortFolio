@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -16,7 +18,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:padding="13dp"
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -24,12 +26,29 @@
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
                 android:gravity="center">
-                <ImageView
-                    android:layout_width="420px"
-                    android:layout_height="550px"
-                    android:scaleType="fitStart"
-                    android:background="@drawable/frame"
-                    android:src="@drawable/nahyun"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="450px"
+                    android:layout_height="580px"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="0dp">
+                    <FrameLayout
+                        android:background="@color/background"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="420px"
+                        android:layout_height="550px"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="0dp"
+                        android:layout_marginTop="15px"
+                        android:layout_marginLeft="15px">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/nahyun"
+                            />
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -41,6 +60,7 @@
                         android:text="조나현"
                         android:textColor="@color/black"
                         android:textSize="9pt"
+                        android:fontFamily="@font/font_tway_air"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -49,6 +69,7 @@
                         android:layout_marginTop="3dp"
                         android:textColor="@color/black"
                         android:textSize="7pt"
+                        android:fontFamily="@font/font_tway_air"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -57,6 +78,7 @@
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:textSize="7pt"
+                        android:fontFamily="@font/font_tway_air"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -65,6 +87,7 @@
                         android:layout_marginTop="5dp"
                         android:textColor="@color/black"
                         android:textSize="7pt"
+                        android:fontFamily="@font/font_tway_air"
                         />
                 </LinearLayout>
             </LinearLayout>
@@ -80,6 +103,7 @@
                 android:textColor="@color/white"
                 android:textSize="6pt"
                 android:layout_marginTop="30dp"
+                android:fontFamily="@font/font_tway_air"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -95,7 +119,9 @@
                     android:layout_height="wrap_content"
                     android:text="Java, Python, HTML, CSS, JavaScript, MySql, OracleDB"
                     android:textColor="@color/black"
-                    android:textSize="7pt"/>
+                    android:textSize="7pt"
+                    android:fontFamily="@font/font_tway_air"
+                    />
             </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
@@ -109,6 +135,7 @@
                 android:textColor="@color/white"
                 android:textSize="6pt"
                 android:layout_marginTop="30dp"
+                android:fontFamily="@font/font_tway_air"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,24 +152,38 @@
                     android:layout_height="wrap_content"
                     android:text="· ITQ 한글엑셀 A등급"
                     android:textColor="@color/black"
-                    android:textSize="7pt"/>
+                    android:textSize="7pt"
+                    android:fontFamily="@font/font_tway_air"
+                    />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="· ITQ 한글파워포인트 A등급"
                     android:textColor="@color/black"
-                    android:textSize="7pt"/>
+                    android:textSize="7pt"
+                    android:fontFamily="@font/font_tway_air"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="· MTA 자바 (딸 수 있겠지)"
+                    android:textColor="@color/black"
+                    android:textSize="7pt"
+                    android:fontFamily="@font/font_tway_air"
+                    />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="· Cos Pro 2급 파이썬 (딸 수 있겠지)"
                     android:textColor="@color/black"
-                    android:textSize="7pt"/>
+                    android:textSize="7pt"
+                    android:fontFamily="@font/font_tway_air"
+                    />
             </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="취득 자격증"
+                android:text="수상 경력"
                 android:background="@drawable/background"
                 android:paddingLeft="13dp"
                 android:paddingRight="13dp"
@@ -151,6 +192,7 @@
                 android:textColor="@color/white"
                 android:textSize="6pt"
                 android:layout_marginTop="30dp"
+                android:fontFamily="@font/font_tway_air"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -165,9 +207,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="· 제 4회 KB국민은행 소프트웨어 경진대회 - 예정"
+                    android:text="· 제 4회 KB국민은행 소프트웨어 경진대회 - 특별상"
                     android:textColor="@color/black"
-                    android:textSize="7pt"/>
+                    android:textSize="7pt"
+                    android:fontFamily="@font/font_tway_air"
+                    />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
@@ -177,5 +221,10 @@
         android:layout_height="wrap_content"
         android:text="포트폴리오 보러가기"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/background"/>
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/font_tway_air"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        />
 </LinearLayout>

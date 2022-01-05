@@ -38,23 +38,12 @@ public class yeonwooProfile extends AppCompatActivity {
 
     }
 
-    //액션 버튼 메뉴 액션바에 넣기
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.top_nav_menu, menu);
-        return true;
-    }
-
     //액션 버튼 클릭 이벤트
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch(item.getItemId()){
             case android.R.id.home:{
                 finish();
-            }
-            case R.id.nextBtn:{
-                Log.d("TAG", "다음버튼");
-                startActivity(new Intent(this, nahyunProfile.class));
             }
         }
         return super.onOptionsItemSelected(item);
