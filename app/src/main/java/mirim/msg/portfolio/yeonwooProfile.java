@@ -44,6 +44,7 @@ public class yeonwooProfile extends AppCompatActivity {
         switch(item.getItemId()){
             case android.R.id.home:{
                 finish();
+                break;
             }
         }
         return super.onOptionsItemSelected(item);
