@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:src="@drawable/hana"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_blue_radius"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="W  2003.10.28   서울"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="성별     생년월일     거주지"
+                android:textSize="15dp"/>
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="20dp"
+                android:background=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="성별     생년월일     거주지"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
