@@ -11,6 +11,10 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".hanaProfile"></activity>
         <activity android:name=".nahyunProfile" />
+        <activity android:name=".juwanProfile" />
+        <activity android:name=".soriProfile" />
+        <activity android:name=".sunwooProfile" />
+        <activity android:name=".taeyeonProfile" />
         <activity android:name=".Splash" />
         <activity android:name=".MainActivity">
             <intent-filter>
