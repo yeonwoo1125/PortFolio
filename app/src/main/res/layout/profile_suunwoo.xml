@@ -52,6 +52,7 @@
     </LinearLayout>
 
     <ScrollView
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -164,12 +165,12 @@
             android:layout_marginBottom="5dp"/>
     </LinearLayout>
     <Button
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:fontFamily="@font/font_tway_air"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:background="@drawable/sw_btn_style"
         android:backgroundTint="@color/white"
         android:text="포트폴리오 보러가기"
