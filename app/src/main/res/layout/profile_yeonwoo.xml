@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        app:menu="@menu/top_nav_menu"/>
+        />
 
     <ImageView
         android:id="@+id/profile_img"
