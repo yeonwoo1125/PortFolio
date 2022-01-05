@@ -10,6 +10,5 @@ public class sunwooProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_suunwoo);
 
-
     }
 }

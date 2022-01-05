@@ -37,14 +37,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="성별     생년월일     거주지"
-                android:textSize="15dp"/>
-            <TextView
-                android:fontFamily="@font/font_tway_air"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="성별     생년월일     거주지"
+                android:text=" 성별     생년월일     거주지"
                 android:textSize="15dp"/>
         </LinearLayout>
     </LinearLayout>
