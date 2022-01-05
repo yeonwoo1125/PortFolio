@@ -15,10 +15,9 @@
         android:id="@+id/profile_img"
         android:layout_width="120dp"
         android:layout_height="140dp"
-        android:background="@drawable/image_radius"
-        android:layout_marginTop="50dp"
         android:layout_marginLeft="30dp"
-         />
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image_radius" />
 
     <TextView
         android:id="@+id/name_text"
@@ -36,12 +35,12 @@
         android:id="@+id/profile_text"
         android:layout_width="100dp"
         android:layout_height="40sp"
-        android:layout_marginTop="50dp"
         android:layout_marginLeft="185dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/font_tway_air"
         android:text="Profile"
-        android:textSize="30sp"
         android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"/>
+        android:textSize="30sp" />
     <View
         android:id="@+id/line_profile"
         android:layout_width="190dp"
@@ -54,13 +53,12 @@
         android:id="@+id/Profile_contents_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="185dp"
-        android:textSize="13sp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/font_tway_air"
         android:text="이름 : 가연우\n생년월일 : 2004.11.25\n학교 : 미림여자정보과학고등학교"
         android:textColor="@color/black"
-        android:fontFamily="@font/font_tway_air"
-        />
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/contacts_text"
@@ -81,18 +79,18 @@
         android:layout_marginTop="315dp"
         android:background="#4D000000"
         android:fontFamily="@font/font_tway_air"/>
+
     <TextView
         android:id="@+id/phone_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="325dp"
         android:layout_marginLeft="30dp"
-        android:text="전화번호 : 010-9242-2844"
-        android:textColor="@color/black"
-        android:linksClickable="true"
+        android:layout_marginTop="325dp"
         android:autoLink="phone"
         android:fontFamily="@font/font_tway_air"
-        />
+        android:linksClickable="true"
+        android:text="전화번호 : 010-9242-2844"
+        android:textColor="@color/black" />
     <TextView
         android:id="@+id/github_text"
         android:layout_width="wrap_content"

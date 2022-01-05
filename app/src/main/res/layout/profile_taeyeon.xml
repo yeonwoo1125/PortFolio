@@ -6,17 +6,12 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/background" />
-
-    <ImageView
         android:id="@+id/profile_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="40dp"
+        android:background="@drawable/text_frame"
 />
 
     <TextView
@@ -52,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="C, Java, Mysql, python"
+            android:text="C, Java, Mysql, Python"
             android:textColor="@color/black"
             android:textSize="15dp" />
     </LinearLayout>
@@ -107,6 +102,13 @@
             android:textColor="@color/black"
             android:textSize="15dp" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:text="Button" />
 
 
 </LinearLayout>
