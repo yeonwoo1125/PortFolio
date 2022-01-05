@@ -27,6 +27,7 @@ public class yeonwooProfile extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),yeonwooProject.class);
                 startActivity(intent);
+
             }
         });
 
@@ -44,6 +45,7 @@ public class yeonwooProfile extends AppCompatActivity {
         switch(item.getItemId()){
             case android.R.id.home:{
                 finish();
+                break;
             }
         }
         return super.onOptionsItemSelected(item);
