@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/activity_main.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/activity_splash.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_hana.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_juwan.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_nahyeon.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_nahyun.xml" value="0.3359375" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_sori.xml" value="0.3359375" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_suunwoo.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_taeyeon.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_yeonwoo.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/project_yeonwoo.xml" value="0.2105978260869565" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
