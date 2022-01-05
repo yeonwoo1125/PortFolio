@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), nahyunProfile.class);
                         startActivity(intent);
                         break;
+                    case 6:
+                        intent = new Intent(getApplicationContext(), hanaProfile.class);
+                        startActivity(intent);
+                        break;
                 }
             }
         });
