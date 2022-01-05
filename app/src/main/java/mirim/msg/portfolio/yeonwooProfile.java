@@ -39,13 +39,14 @@ public class yeonwooProfile extends AppCompatActivity {
 
     }
 
+
     //액션 버튼 클릭 이벤트
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        switch(item.getItemId()){
-            case android.R.id.home:{
+        switch (item.getItemId()){
+            case android.R.id.home: {
                 finish();
-                break;
+                return true;
             }
         }
         return super.onOptionsItemSelected(item);
