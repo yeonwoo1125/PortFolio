@@ -57,8 +57,20 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), nahyunProfile.class);
                         startActivity(intent);
                         break;
+                    case 2:
+                        intent = new Intent(getApplicationContext(), sunwooProfile.class);
+                        startActivity(intent);
+                        break;
+                    case 3:
+                        intent = new Intent(getApplicationContext(), juwanProfile.class);
+                        startActivity(intent);
+                        break;
                     case 4:
                         intent = new Intent(getApplicationContext(), soriProfile.class);
+                        startActivity(intent);
+                        break;
+                    case 5:
+                        intent = new Intent(getApplicationContext(), taeyeonProfile.class);
                         startActivity(intent);
                         break;
                     case 6:
