@@ -3,12 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/drawable/bluebtn_radius.xml" value="0.35625" />
-        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/drawable/btn.xml" value="0.35625" />
-        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/drawable/btn_blue_radius.xml" value="0.35625" />
-        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/drawable/btn_radius.xml" value="0.35625" />
-        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/drawable/circle.xml" value="0.35625" />
-        <entry key="..\:/Users/User/StudioProjects/PortFolio/app/src/main/res/layout/profile_juwan.xml" value="0.2" />
+        <entry key="..\:/Major/android/PortFolio/app/src/main/res/layout/profile_juwan.xml" value="0.33" />
+        <entry key="..\:/Major/android/PortFolio/app/src/main/res/layout/profile_sori.xml" value="0.20364583333333333" />
+        <entry key="..\:/Major/android/PortFolio/app/src/main/res/layout/profile_taeyeon.xml" value="0.25" />
         <entry key="..\:/Users/apf_temp_admin/StudioProjects/PortFolio/app/src/main/res/layout/activity_sori_profile.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/apf_temp_admin/StudioProjects/PortFolio/app/src/main/res/layout/profile_hana.xml" value="0.1375" />
         <entry key="..\:/Users/apf_temp_admin/StudioProjects/PortFolio/app/src/main/res/layout/profile_juwan.xml" value="0.1716485507246377" />
