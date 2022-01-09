@@ -18,7 +18,7 @@
         android:layout_height="260dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="60dp"
-        android:background="@drawable/image_radius" />
+        android:background="@drawable/img_radius_b" />
 
     <ImageView
         android:id="@+id/my_img1"
@@ -75,7 +75,7 @@
         android:layout_height="60dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="360dp"
-        android:background="@drawable/image_radius" />
+        android:background="@drawable/img_radius_b" />
 
     <TextView
         android:id="@+id/tool_cont"
@@ -105,7 +105,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="455dp"
-        android:background="@drawable/image_radius" />
+        android:background="@drawable/img_radius_b" />
 
     <TextView
         android:id="@+id/cert_cont"
@@ -135,7 +135,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="570dp"
-        android:background="@drawable/image_radius" />
+        android:background="@drawable/img_radius_b" />
 
     <TextView
         android:id="@+id/cele_cont"
