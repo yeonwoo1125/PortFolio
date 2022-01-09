@@ -45,6 +45,7 @@
         android:fontFamily="@font/font_tway_air"
         android:text="이주완"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="30dp" />
 
     <TextView
@@ -56,6 +57,7 @@
         android:fontFamily="@font/font_tway_air"
         android:text="미림여자정보과학\n고등학교 1학년\n\n뉴미디어\n소프트웨어과"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="18dp" />
 
     <TextView
@@ -67,6 +69,7 @@
         android:fontFamily="@font/font_tway_air"
         android:text="사용 가능한 언어"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="20dp" />
 
     <ImageView
@@ -97,6 +100,7 @@
         android:fontFamily="@font/font_tway_air"
         android:text="취득 자격증"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="20dp" />
 
     <ImageView
@@ -127,6 +131,7 @@
         android:fontFamily="@font/font_tway_air"
         android:text="수상 내역"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="20dp" />
 
     <ImageView
@@ -142,7 +147,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="595dp"
+        android:layout_marginTop="598dp"
         android:fontFamily="@font/font_tway_air"
         android:text="BE THE CEO 창업 아디이어 수상"
         android:textColor="#5F5F5F"
@@ -156,9 +161,10 @@
         android:layout_marginTop="660dp"
         android:background="@drawable/bluebtn_radius"
         android:fontFamily="@font/font_tway_air"
+        android:paddingHorizontal="20dp"
         android:text="포트폴리오 보러가기"
         android:textColor="@color/white"
-        android:paddingHorizontal="20dp"
+        android:textStyle="bold"
         android:textSize="20dp" />
 
 
