@@ -16,7 +16,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/text_frame"
-        android:src=""
+        android:src="@drawable/taeyeon"
 />
 
     <TextView
