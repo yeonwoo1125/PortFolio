@@ -24,7 +24,7 @@
         android:id="@+id/my_img1"
         android:layout_width="140dp"
         android:layout_height="170dp"
-        android:layout_marginLeft="55dp"
+        android:layout_marginLeft="56dp"
         android:layout_marginTop="105dp"
         app:srcCompat="@drawable/juwan" />
 
@@ -116,10 +116,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="660dp"
-        android:background="#0057FF"
+        android:background="@drawable/bluebtn_radius"
         android:fontFamily="@font/font_tway_air"
         android:text="포트폴리오 보러가기"
         android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
         android:textSize="20dp" />
 
 
