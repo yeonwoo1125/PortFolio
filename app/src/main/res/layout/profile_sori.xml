@@ -15,7 +15,7 @@
         android:layout_height="200dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
-        android:src="@drawble/sori"/>
+        android:src="@drawable/sori"/>
 
     <LinearLayout
         android:layout_width="210dp"
