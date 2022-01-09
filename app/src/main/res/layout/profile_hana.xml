@@ -21,18 +21,17 @@
             android:src="@drawable/hana"
             android:scaleType="centerCrop"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/btn_blue_radius"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:orientation="vertical">
             <TextView
                 android:fontFamily="@font/font_tway_air"
                 android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="W  2003.10.28   서울"
@@ -40,11 +39,190 @@
                 android:textSize="20dp"/>
             <TextView
                 android:fontFamily="@font/font_tway_air"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" 성별     생년월일     거주지"
+                android:textColor="#BFBFBF"
+                android:text=" 성별      생년월일      거주지"
                 android:textSize="15dp"/>
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_radius"
+                android:text="010 - 3292 - 8660"
+                android:textSize="13dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:fontFamily="@font/font_tway_air"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_radius"
+                android:text="d2032@e-mirim.hs.kr"
+                android:textSize="13dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
         </LinearLayout>
     </LinearLayout>
+    <TextView
+        android:fontFamily="@font/font_tway_air"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미림여자정보과학고등학교\n뉴미디어디자인과 2학년 이하나의 포토폴리오 예요."
+        android:textSize="13dp"/>
+<!--    사용 프로그램-->
+    <View
+        android:layout_marginTop="20dp"
+        android:background="#898989"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용 프로그램"
+            android:textColor="#0057FF"
+            android:textSize="15dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dot"
+            android:layout_marginRight="50dp"/>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:background="#898989"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adobe photoshop, lllustrator,\nAfter Effects, InDesign, XD"
+            android:textSize="13dp"/>
+    </LinearLayout>
+<!--    취득자격증-->
+    <View
+        android:background="#898989"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="취득 자격증"
+            android:textColor="#0057FF"
+            android:textSize="15dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dot"
+            android:layout_marginRight="50dp"/>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:background="#898989"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adobe lllustrator          ----------------------------\nadobe photoshop         ----------------------------\nITQ 엑셀          --------------------------------    B\nHSK 5급          ------------------------------------"
+            android:textSize="13dp"/>
+    </LinearLayout>
+    <!--    수상내역-->
+    <View
+        android:background="#898989"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수상 내역"
+            android:textColor="#0057FF"
+            android:textSize="15dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/dot"
+            android:layout_marginRight="50dp"/>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:background="#898989"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/font_tway_air"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STEC          -------------------------------    우수상\n해커톤 앱잼      -----------------------------   우수상"
+            android:textSize="13dp"/>
+    </LinearLayout>
+    <Button
+        android:fontFamily="@font/font_tway_air"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="35dp"
+        android:background="@drawable/text_radius"
+        android:backgroundTint="#0057FF"
+        android:text="포트폴리오 보러가기"
+        android:textColor="@color/white"
+        android:layout_marginTop="80dp"/>
 </LinearLayout>
