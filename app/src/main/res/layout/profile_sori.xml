@@ -57,7 +57,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
             android:text="사용 언어"
-            android:textSize="23dp" />
+            android:textSize="23dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -81,7 +82,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
             android:text="취득 자격증"
-            android:textSize="23dp" />
+            android:textSize="23dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -105,7 +107,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
             android:text="수상 내역"
-            android:textSize="23dp" />
+            android:textSize="23dp"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
