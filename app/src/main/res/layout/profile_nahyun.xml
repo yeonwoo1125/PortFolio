@@ -166,7 +166,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="· MTA 자바 (딸 수 있겠지)"
+                    android:text="· MTA 자바"
                     android:textColor="@color/black"
                     android:textSize="7pt"
                     android:fontFamily="@font/font_tway_air"
@@ -216,6 +216,7 @@
         </LinearLayout>
     </ScrollView>
     <Button
+        android:id="@+id/btn"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
