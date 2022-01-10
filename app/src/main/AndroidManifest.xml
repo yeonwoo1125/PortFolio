@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".hanaProfile"></activity>
+        <activity android:name=".nahyunProject"></activity>
+        <activity android:name=".hanaProfile" />
         <activity android:name=".nahyunProfile" />
         <activity android:name=".juwanProfile" />
         <activity android:name=".soriProfile" />
