@@ -36,7 +36,6 @@ public class yeonwooProfile extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //뒤로가기
         //getSupportActionBar().setHomeAsUpIndicator(R.drawable.home_btn); //icon 변경
-
     }
 
 
@@ -51,6 +50,4 @@ public class yeonwooProfile extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-
 }

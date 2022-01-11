@@ -11,18 +11,19 @@
         android:layout_height="50dp"
         />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/profile_img"
         android:layout_width="120dp"
-        android:layout_height="140dp"
-        android:background="@drawable/image_radius"
-        android:layout_marginTop="50dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="45dp"
         android:layout_marginLeft="30dp"
         android:src="@drawable/yeonwoo"
+        android:scaleType="fitXY"
+        android:background="@drawable/image_radius"
          />
 
     <TextView
-        android:id="@+id/name_text"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -49,16 +50,34 @@
         android:layout_height="2dp"
         android:layout_marginLeft="185dp"
         android:layout_marginTop="90dp"
-        android:background="#4D000000"/>
+        android:background="#4D0057FF"/>
 
     <TextView
-        android:id="@+id/Profile_contents_text"
+        android:id="@+id/name_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="185dp"
-        android:textSize="13sp"
-        android:text="이름 : 가연우\n생년월일 : 2004.11.25\n학교 : 미림여자정보과학고등학교"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/font_tway_air"
+        android:text="이름 : 가연우"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/birth_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="185dp"
+        android:text="생년월일 : 2004.11.25"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        />
+    <TextView
+        android:id="@+id/school_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="185dp"
+        android:text="학교 : 미림여자정보과학고등학교"
         android:textColor="@color/black"
         android:fontFamily="@font/font_tway_air"
         />
@@ -80,7 +99,7 @@
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="315dp"
-        android:background="#4D000000"
+        android:background="#4D0057FF"
         android:fontFamily="@font/font_tway_air"/>
     <TextView
         android:id="@+id/phone_text"
@@ -150,26 +169,88 @@
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="485dp"
-        android:background="#4D000000"/>
+        android:background="#4D0057FF"/>
     <TextView
-        android:id="@+id/project_contents_text"
+        android:id="@+id/contest_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="495dp"
         android:layout_marginLeft="30dp"
-        android:text="공모전 및 대회\n · E-icon 세계대회\n · 2021 STAC\n\n전공\n · C++\n · JavaScript\n · JAVA"
+        android:text="공모전 및 대회"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/eicon_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="40dp"
+        android:text="· E-icon 세계대회"
         android:textColor="@color/black"
         android:fontFamily="@font/font_tway_air"
         />
+    <TextView
+        android:id="@+id/stac_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="40dp"
+        android:text="· 2021 STAC"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        />
+    <TextView
+        android:id="@+id/class_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="30dp"
+        android:text="전공 프로젝트"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/c_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+        android:layout_marginLeft="40dp"
+        android:text="· C++ - Make Ant House"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        />
+    <TextView
+        android:id="@+id/java_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="605dp"
+        android:layout_marginLeft="40dp"
+        android:text="· Java - Octopus Game"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        />
+    <TextView
+        android:id="@+id/js_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="625dp"
+        android:layout_marginLeft="40dp"
+        android:text="· JavaScript - Health Eat Run"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_tway_air"
+        />
+
 
     <Button
         android:id="@+id/go_project_btn"
         android:layout_width="190dp"
         android:layout_height="50dp"
-        android:layout_marginTop="655dp"
+        android:layout_marginTop="660dp"
         android:background="@drawable/btn_radius"
         android:layout_centerHorizontal="true"
         android:text="프로젝트 보러가기"
         android:fontFamily="@font/font_tway_air"/>
-
 </RelativeLayout>
