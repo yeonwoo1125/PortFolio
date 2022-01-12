@@ -9,17 +9,17 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="20dp"
         android:layout_height="50dp"
         android:src="@drawable/portfolio"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="550dp"
+        android:layout_height="500dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/btn_radius"
         android:backgroundTint="@color/white"
         android:orientation="vertical">
@@ -30,18 +30,31 @@
             android:layout_height="500dp"
             android:layout_gravity="center"
             android:layout_marginTop="15dp" />
-
-<!--        <Button-->
-<!--            android:id="@+id/profile_btn"-->
-<!--            android:layout_width="342dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:layout_marginTop="10dp"-->
-<!--            android:drawablePadding="100dp"-->
-<!--            android:background="#00ff0000"-->
-<!--            android:text="이름"-->
-<!--            android:textSize="40sp" />-->
-<!--        &lt;!&ndash;            android:background="@drawable/btn_blue_radius"&ndash;&gt;-->
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:fontFamily="@font/font_tway_air"
+            android:id="@+id/btn_previous"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="PREVIOUS"
+            android:layout_marginLeft="50dp"
+            android:textSize="14sp"
+            android:onClick="mOnClick"/>
 
+        <Button
+            android:fontFamily="@font/font_tway_air"
+            android:id="@+id/btn_next"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NEXT"
+            android:textSize="14sp"
+            android:layout_marginRight="50dp"
+            android:onClick="mOnClick"/>
+    </LinearLayout>
 </LinearLayout>
