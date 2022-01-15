@@ -158,7 +158,7 @@
             android:fontFamily="@font/font_tway_air"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="◽ITQ 파워포인트 A\n◽ITQ 엑셀 A\n◽ITQ 아래한글 A\n◽정보처리기능사\n◽MTA JAVA\n◽CosPro Python 따고싶다"
+            android:text="◽ITQ 파워포인트 A\n◽ITQ 엑셀 A\n◽ITQ 아래한글 A\n◽정보처리기능사\n◽MTA JAVA\n◽COS Pro Python"
             android:textColor="@color/white"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
